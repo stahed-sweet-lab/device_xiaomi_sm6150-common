@@ -41,6 +41,7 @@
         <library name="volume_listener" path="libvolumelistener.so"/>
         <library name="audiosphere" path="libasphere.so"/>
         <library name="shoebox" path="libshoebox.so"/>
+        <library name="v4a_re" path="libv4a_re.so"/>
         <!--DOLBY DAP-->
         <library name="dap" path="libswdap.so"/>
         <library name="dvl" path="libdlbvol.so"/>
@@ -103,6 +104,7 @@
         <effect name="dlb_system_listener" library="dvl" uuid="874db4d8-051d-4b7b-bd95-a3bebc837e9e"/>
         <effect name="dlb_notification_listener" library="dvl" uuid="1f0091e3-6ad8-40fe-9b09-5948f9a26e7e"/>
         <effect name="dlb_voice_call_listener" library="dvl" uuid="58d13383-b41d-05df-d94e-bb23db293260"/>
+        <effect name="v4a_standard_re" library="v4a_re" uuid="90380da3-8536-4744-a6a3-5731970e640f"/>
         <!--DOLBY GAME-->
         <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2"/>
         <!--DOLBY VQE-->
